@@ -16,6 +16,8 @@
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 </div>
 
+<br>
+
 ## 🧑‍💻 Developer
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/160652976?s=400&u=d46bfd169f26ff9b8f153ad853c23cdb3cd3ad2c&v=4" width=130px><br><sub>Gabriel Pizol</sub>](https://github.com/GabrielPizol)
