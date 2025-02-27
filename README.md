@@ -1,14 +1,14 @@
-<h1>❓ Guess The Number Game ❓</h1>
+# ❓ Guess The Number Game ❓
 
 <br>
 
-<h2>❗️About </h2>
+## ❗️About
 
 <h3> A game created to learn some JavaScript language. It's about trying to guess a number between 1 and another of your choice. Hope you enjoy it!</h3>
 
 <br>
 
-<h2>💡 Tecnologies</h2>
+## 💡 Tecnologies
 
 <div>
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
@@ -16,4 +16,6 @@
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 </div>
 
-<img src="" width=130px>
+## 🧑‍💻 Developer
+
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/160652976?s=400&u=d46bfd169f26ff9b8f153ad853c23cdb3cd3ad2c&v=4" width=130px><br><sub>Gabriel Pizol</sub>](https://github.com/GabrielPizol)
