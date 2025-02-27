@@ -1,4 +1,5 @@
-<h1 align="center"> ❓ Guess The Number Game ❓</h1>
+
+# ❓ Guess The Number Game ❓
 
 <br>
 
