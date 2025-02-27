@@ -1,4 +1,4 @@
-# ❓ Guess The Number Game ❓
+<h1 align="center"> ❓ Guess The Number Game ❓</h1>
 
 <br>
 
@@ -20,4 +20,5 @@
 
 ## 🧑‍💻 Developer
 
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/160652976?s=400&u=d46bfd169f26ff9b8f153ad853c23cdb3cd3ad2c&v=4" width=130px><br> Gabriel Pizol ](https://github.com/GabrielPizol)
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/160652976?s=400&u=d46bfd169f26ff9b8f153ad853c23cdb3cd3ad2c&v=4" width=130px><br> Gabriel Pizol ](https://github.com/GabrielPizol) | 
+| :---: | 
