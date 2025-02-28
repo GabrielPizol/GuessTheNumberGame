@@ -3,12 +3,14 @@ let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
+//Exibição do texto na tela 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
+//Mensagem inicial 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 1000');
@@ -16,6 +18,7 @@ function exibirMensagemInicial() {
 
 exibirMensagemInicial();
 
+//Verificar se o chute é válido
 function verificarChute() {
     let chute = document.querySelector('input').value;
     
@@ -36,6 +39,7 @@ function verificarChute() {
     }
 }
 
+//Gerar um número aleatório válido
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
@@ -52,11 +56,13 @@ function gerarNumeroAleatorio() {
     }
 }
 
+//Limpar o campo de escrita
 function limparCampo() {
     chute = document.querySelector('input');
     chute.value = '';
 }
 
+//Reiniciar o jogo
 function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
