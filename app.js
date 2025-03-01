@@ -1,5 +1,6 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10000;
+let numeroLimite;
+escolherNumeroMaximo()
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -71,7 +72,14 @@ function reiniciarJogo() {
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
 
-
-
-
-
+function escolherNumeroMaximo(){
+    let numeroMaximoEscolhido = prompt('Escolha um número máximo para o jogo: ');
+    if(numeroMaximoEscolhido > 0){       
+        numeroMaximoEscolhido = parseInt(numeroMaximoEscolhido);
+        numeroLimite = parseInt(numeroLimite);
+        numeroLimite = numeroMaximoEscolhido;
+    } else {
+        alert('Digite um número maior que 0!');
+        escolherNumeroMaximo();
+    }
+}
